@@ -1,0 +1,12 @@
+*.o
+*.os
+*.so
+*.a
+*.log
+test
+tmp*
+
+build
+data
+.*
+!.gitignore
