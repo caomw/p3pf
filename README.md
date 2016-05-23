@@ -55,11 +55,7 @@ should be simple as well.
 To build and install the software, go to the directory containing the README.txt
 file and type
 
-mkdir build
-mkdir release
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=../release ..
-make install
+scons
 
 This will install the P3P(f) library under release/lib, the header files under
 release/include, and an executable for an example program (p3pf_example) under
